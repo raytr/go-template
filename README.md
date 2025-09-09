@@ -49,30 +49,6 @@ go-template/
    go mod download
    ```
 
-## Configuration
-
-The application uses environment variables for configuration. Copy and modify the `.env` file:
-
-```env
-# Database Configuration
-DATABASE_URL=postgresql://myadmin:pswd@127.0.0.1:5434/simple-db
-DB_HOST=127.0.0.1
-DB_PORT=5434
-DB_USER=myadmin
-DB_PASSWORD=pswd
-DB_NAME=simple-db
-DB_SSL_MODE=disable
-
-# Server Configuration
-SERVER_PORT=8080
-SERVER_HOST=0.0.0.0
-GIN_MODE=debug
-
-# Application
-APP_NAME=go-template
-APP_ENV=development
-```
-
 ## Running the Application
 
 ### Using Make (Recommended)
